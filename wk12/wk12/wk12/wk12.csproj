@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="HtmlPage2.html" />
+    <Content Include="HtmlPage3.html" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />

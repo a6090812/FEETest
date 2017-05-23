@@ -5,6 +5,7 @@
     <title>js 功能</title>
 </head>
 <body>
+   
     <p id="ex1">JavaScript can change HTML content.</p>
 
     <button type="button" onclick='document.getElementById("ex1").innerHTML = "Hello JavaScript!"'>Click Me!</button>
@@ -15,11 +16,41 @@
 
     <p>In this case JavaScript changes the src (source) attribute of an image.</p>
 
-    <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+    <button onmouseover="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
 
-    <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+    <img onmouseover="document.getElementById('myImage').src='pic_bulbon.gif'" onmouseout="document.getElementById('myImage').src='pic_bulboff.gif'" id="myImage" src="pic_bulboff.gif" style="width:100px">
 
-    <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+    <button onmouseover="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
 
+    <h2>What Can JavaScript Do?</h2>
+
+    <p id="ex3">JavaScript can change the style of an HTML element.</p>
+
+    <button type="button" onclick="document.getElementById('ex3').style.fontSize='35px'">35px</button>
+    
+    <button type="button" onclick="myFunction()">text</button>
+    <button type="button" onclick="myFunction2()">f2</button>
+    <p id="ll"></p>
+    <script>
+        function myFunction() {
+            var l;
+            if (document.getElementById('ex3').innerHTML == "JavaScript can change the style of an HTML element.") {
+                l="4455555555";
+            } else {
+                l="JavaScript can change the style of an HTML element.";
+            }
+            document.getElementById('ex3').innerHTML = l;
+        }
+
+        function myFunction2() {
+            if (document.getElementById('myImage').innerHTML == "pic_bulboff.gif") {
+                document.getElementById('myImage').src = 'pic_bulbon.gif';
+                document.getElementById('ex3').innerHTML = 11;
+            }
+            else {
+            }
+        }
+        
+    </script>
 </body>
 </html>

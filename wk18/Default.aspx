@@ -1372,21 +1372,7 @@ function openLangUrl(p_lang) {
 						
 						<div id="Dyn_2_1" class="M11171 M11171_189  ">
 
-<img src="/images/clear.gif" alt="" onload="
-var obj=divOs.getParentNodeById(this,'Dyn_',1);
-if(obj!=null){
-	var module_privstr_11171 = 'reload(\'===RldDivId===\',\'資訊科技系102學年度日間部四技招生員額\',\'11171\',\'um_mstr\',\'189\',\'/bin\',\'數據載入中...\',\'/images/clear.gif\',\'%24UM%3D189%3B\',\'0\')';
-	
-	var moprivstr = module_privstr_11171.replace('===RldDivId===',obj.id);
-	var str0 = '@@@'+triggerAction[0].join('@@@')+'@@@';
-	var str1 = '@@@'+triggerAction[1].join('@@@')+'@@@';
-	if(str0.indexOf('@@@'+moprivstr+'@@@')==-1)
-		triggerAction[0].push(moprivstr);
-	if(str1.indexOf('@@@'+moprivstr+'@@@')==-1)
-		triggerAction[1].push(moprivstr); 
-};
-"/>
-<!-- generated at Mon May 22 2017 17:15:47 --></div>
+&nbsp;<!-- generated at Mon May 22 2017 17:15:47 --></div>
 
 					
 					
@@ -1610,6 +1596,7 @@ $('#sm_a76b855aec7e7efc0d912c59559b6c8e9_1_'+p_nbr).focus();
 
 <input type="hidden" name="hd_a76b855aec7e7efc0d912c59559b6c8e9_1" id="hd_a76b855aec7e7efc0d912c59559b6c8e9_1" value="/bin/showmodule.php?O=1060&F=/60/1060/modules/rcg_mstr/12/rcg_mstr-12.htm.zh-tw&Mo=10214&Type=rcg_mstr&Nbr=12&Seq=12&Cg=cmb">
 </div><img class="img_loading" alt="" src="/images/clear.gif" onload="var obj=divOs.getParentNodeById(this,'Dyn_',1);if(obj!=null){previousSibling.id=previousSibling.id+'_'+obj.id;};"/>
+    <iframe id="I1" allowfullscreen="" frameborder="0" height="360" name="I1" src="https://www.youtube.com/embed/TJsfkbZqR0w" width="640"></iframe>
 
 </div>
 
